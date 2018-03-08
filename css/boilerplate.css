@@ -1,0 +1,93 @@
+html {
+  height                   : 100%;
+  font-size                : 100%;
+  -webkit-text-size-adjust : 100%;
+  -moz-text-size-adjust    : 100%;
+  -ms-text-size-adjust     : 100%;
+  overflow                 : auto;
+}
+
+body {
+  min-height : 100%;
+  margin     : 0;
+}
+
+body * {
+  outline : none;
+}
+
+#viewDiv {
+  height     : calc(100vh - 100px) !important;
+  margin     : 0;
+  padding    : 0;
+  box-shadow : 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#user-thumb-node {
+  height         : 36px;
+  border-radius  : 18px;
+  vertical-align : middle;
+}
+
+.input-error-message.is-active {
+  position : absolute;
+}
+
+#group-details img {
+  height : 2em;
+}
+
+.items-list {
+  height   : 200px;
+  overflow : auto;
+}
+
+.service-info {
+  padding    : 3px;
+  border-top : solid 1px #ddd;
+}
+
+#links-node {
+  user-select : none;
+  /*height      : calc(100vh - 125px);*/
+  height      : calc(100vh - 200px);
+  overflow    : hidden;
+}
+
+#graph-legend {
+  z-index  : 99;
+  position : absolute;
+}
+
+#graph-legend * {
+  vertical-align : middle;
+}
+
+.graph-legend-color {
+  width        : 2.5em;
+  height       : 1em;
+  margin-right : 5px;
+  box-shadow   : 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.drawer-nav {
+  width : 350px;
+}
+
+.lineage-item * {
+  vertical-align : middle;
+}
+
+#tree-node {
+  height : 600px;
+}
+
+#sources-panel {
+  height : calc(100vh - 250px);
+}
+
+#source-contents .tab-section fieldset {
+  height   : calc(100vh - 250px);
+  overflow : auto;
+}
+

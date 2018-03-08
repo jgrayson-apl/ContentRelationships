@@ -1,0 +1,47 @@
+
+.link line {
+  stroke       : #69dcff;
+  stroke-width : 2px;
+}
+
+.link line.separator {
+  stroke : yellow;
+}
+
+.node circle {
+  cursor       : pointer;
+  stroke-width : 1px;
+}
+
+.node text {
+  opacity        : 0.65;
+  fill           : #fff;
+  text-shadow    : 1px 1px 0 black;
+  font-size      : 9pt;
+  pointer-events : none;
+}
+
+.node image {
+  pointer-events : none;
+  /*cursor         : pointer;*/
+}
+
+#tree-node .node {
+  cursor : pointer;
+}
+
+#tree-node .node circle {
+  fill         : #fff;
+  stroke       : steelblue;
+  stroke-width : 3px;
+}
+
+#tree-node .node text {
+  font : 12px sans-serif;
+}
+
+#tree-node .link {
+  fill         : none;
+  stroke       : #ccc;
+  stroke-width : 2px;
+}
